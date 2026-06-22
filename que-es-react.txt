@@ -1,0 +1,56 @@
+¿QUÉ ES REACT?
+=================
+
+React es una biblioteca de JavaScript de código abierto desarrollada por Facebook (Meta) para construir interfaces de usuario (UI), especialmente para aplicaciones de una sola página (SPA).
+
+PRINCIPALES CARACTERÍSTICAS:
+-----------------------------
+
+1. **Componentes**: React se basa en componentes reutilizables. Cada componente es una pieza independiente de la UI que puede tener su propio estado y lógica.
+
+2. **Virtual DOM**: React utiliza un DOM virtual para optimizar las actualizaciones. En lugar de manipular directamente el DOM real, React crea una representación virtual en memoria y calcula la forma más eficiente de actualizar el DOM real.
+
+3. **JSX**: Es una extensión de sintaxis para JavaScript que permite escribir HTML dentro de JavaScript. JSX facilita la creación de componentes y hace el código más legible.
+
+4. **Unidireccional**: React sigue un flujo de datos unidireccional (de padre a hijo), lo que facilita el seguimiento de los cambios y la depuración.
+
+5. **Estado (State) y Propiedades (Props)**: 
+   - Props: Datos que fluyen de un componente padre a un componente hijo.
+   - State: Datos internos de un componente que pueden cambiar con el tiempo.
+
+VENTAJAS:
+----------
+- Rendimiento optimizado gracias al Virtual DOM
+- Reutilización de código mediante componentes
+- Gran ecosistema y comunidad activa
+- Facilita el mantenimiento de aplicaciones grandes
+- Soporte para desarrollo móvil con React Native
+
+DESVENTAJAS:
+------------
+- Curva de aprendizaje inicial (JSX, hooks, etc.)
+- Requiere herramientas adicionales para proyectos completos (enrutamiento, estado global)
+- Puede ser excesivo para aplicaciones muy simples
+
+¿CUÁNDO USAR REACT?
+--------------------
+- Aplicaciones web dinámicas con interacción del usuario
+- Aplicaciones de una sola página (SPA)
+- Proyectos que requieren una interfaz de usuario compleja y escalable
+- Equipos que necesitan mantener y escalar aplicaciones grandes
+
+CONCEPTOS CLAVE:
+-----------------
+- **Hooks**: Funciones como useState, useEffect, useContext que permiten usar estado y otras características sin escribir clases.
+- **Componentes funcionales**: La forma moderna de escribir componentes en React utilizando funciones y hooks.
+- **Renderizado condicional**: Técnica para mostrar diferentes UI basadas en condiciones.
+- **Manejo de eventos**: React proporciona una forma consistente de manejar eventos del usuario.
+- **Ciclo de vida**: Conjunto de fases por las que pasa un componente (montaje, actualización, desmontaje).
+
+REACT VS OTROS FRAMEWORKS:
+---------------------------
+- **Angular**: Framework completo con más funcionalidades integradas; React es más ligero y flexible.
+- **Vue**: Similar a React pero con una sintaxis más simple; React tiene un ecosistema más grande.
+- **Svelte**: Compila en tiempo de construcción eliminando la necesidad de un Virtual DOM; React tiene mayor adopción en la industria.
+
+React es mantenido por Meta (Facebook) y una comunidad de desarrolladores individuales y empresas. Es uno de los frameworks/bibliotecas frontend más populares en la actualidad.
