@@ -121,7 +121,7 @@ app.delete("/books/:id", (req, res) => {
   res.json({ mensaje: `Libro "${deletedBook.titulo}" eliminado correctamente`, libro: deletedBook });
 });
 
-// ✅ Puerto dinámico para Render
+// Puerto dinámico para Render
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT}`);
